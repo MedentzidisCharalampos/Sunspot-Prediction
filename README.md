@@ -10,8 +10,8 @@ The series  will be converted into the dataset using the previous configurations
 The network design and hyperparameters are as follows:  
 A convolutional layer with 60 filter, kernel size 3x3, stride 1, input a timeserie and activation function Relu  
 Two lstm layers with 60 cells each   
-A dense layer of 30-units with input the window size and activation fucntion Relu  
-A dense layer of 10-units with input and activation fucntion Relu  
+A dense layer of 30-units with input the window size and activation function Relu  
+A dense layer of 10-units with input and activation function Relu  
 A dense layer of 1-unit   
 A lambda layer that multiplies the output to 400 because our numbers are in range 1-400
 
